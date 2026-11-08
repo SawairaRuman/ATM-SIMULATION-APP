@@ -1,0 +1,108 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #16121f, #30203c, #17131e);
+    font-family: Arial, sans-serif;
+}
+
+.box1 {
+    width: 400px;
+    min-height: 500px;
+    background: #17141f;
+    border: 2px solid #743d85;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(225, 70, 160, 0.25);
+    padding: 30px;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+.box1 h2 {
+    color: #ff4f9a;
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+
+.box1 h3 {
+    color: #ffffff;
+    background: linear-gradient(120deg, #813b91, #b04487);
+    padding: 18px;
+    border-radius: 12px;
+    margin: 15px 0;
+    font-size: 19px;
+}
+
+.box1 button {
+    background: linear-gradient(90deg, #ff4f9a, #a044c4);
+    color: white;
+    border: none;
+    padding: 13px 18px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box1 button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 79, 154, 0.35);
+}
+
+.box1 input {
+    width: 100%;
+    padding: 13px;
+    margin: 12px 0;
+    background: #282331;
+    color: white;
+    border: 1px solid #9b4eaa;
+    border-radius: 9px;
+    outline: none;
+    font-size: 16px;
+}
+
+.box1 input:focus {
+    border-color: #ff4f9a;
+    box-shadow: 0 0 8px #ff4f9a66;
+}
+
+.box1 label {
+    color: #e6c9ef;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.atm-message {
+    color: #ff75ac;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.box1 div button {
+    width: 100%;
+}
+
+@media (max-width: 450px) {
+    .box1 {
+        width: 95%;
+        padding: 20px;
+        min-height: 450px;
+    }
+}
